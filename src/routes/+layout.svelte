@@ -4,6 +4,7 @@
 
 <svelte:head>
 	<title>Francisco Perea</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta name="description" content="Francisco Perea Torá - Software Engineer" />
 	<link
 		rel="icon"
