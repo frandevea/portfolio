@@ -8,23 +8,15 @@ export const opinions: Opinion[] = [
 		name: 'Lucas Goyeche',
 		picture: lucas,
 		description:
-			'Capaz de enfrentar cualquier desafío técnico, Fran posee una gran habilidad de diseño acompañada de su abanico de herramientas como desarrollador, combinado con su atención al detalle y comunicación, un placer trabajar con él.',
+			'Able to tackle any technical challenge, Fran possesses great design skills coupled with his range of tools as a developer, combined with his attention to detail and communication, a pleasure to work with him.',
 		position: 'Tech Lead',
 		company: 'Broken Rubik'
-	},
-	{
-		name: 'Youssef Lehchiki',
-		picture: youssef,
-		description:
-			'Recomiendo encarecidamente a Fran como desarrollador freelance. Es altamente competente, confiable y dedicado en su trabajo. Su experiencia y habilidades serán de gran valor para cualquier proyecto en el que se involucre.',
-		position: 'Software Engineer',
-		company: 'Delcom Wave'
 	},
 	{
 		name: 'Manuel Manresa',
 		picture: manuel,
 		description:
-			'Capaz de enfrentar cualquier desafío técnico, Fran posee una gran habilidad de diseño acompañada de su abanico de herramientas como desarrollador, combinado con su atención al detalle y comunicación, un placer trabajar con él.',
+			'With extensive experience and a constant drive to improve, Fran is an excellent candidate for any software project, big or small.',
 		position: 'Software Engineer',
 		company: 'Delcom'
 	},
@@ -32,8 +24,16 @@ export const opinions: Opinion[] = [
 		name: 'Luis Enrique',
 		picture: unknown,
 		description:
-			'Super competente, contacte con varios programadores que estuvieron a prueba y el que mejor resultado me dió con diferencia fue Fran, todo un acierto.',
+			'Super competent, I contacted several programmers who were tested and the one who gave me the best result by far was Fran, very good decision to choose him for our project.',
 		position: 'CEO',
 		company: 'Viajes Mundomanía'
+	},
+	{
+		name: 'Youssef Lehchiki',
+		picture: youssef,
+		description:
+			'Competent, trustworthy, and dedicated to his work. His experience and skills will be invaluable to any project he is involved with.',
+		position: 'Software Engineer',
+		company: 'Delcom'
 	}
 ];
