@@ -5,8 +5,10 @@
 	import { each } from 'svelte/internal';
 </script>
 
-<Marquee direction="right" speed={10}>
-	{#each opinions as opinion}
-		<OpinionCard {opinion} />
-	{/each}
-</Marquee>
+<div class="bg-indigo-200 py-4">
+	<Marquee direction="right" speed={10}>
+		{#each opinions as opinion}
+			<OpinionCard {opinion} />
+		{/each}
+	</Marquee>
+</div>

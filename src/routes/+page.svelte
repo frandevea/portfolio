@@ -14,7 +14,6 @@
 
 	<OpinionsCarousel />
 	<div class="px-5 md:px-14">
-		<p class="text-4xl mb-1 text-left font-bold py-14 text-center">My latest projects</p>
 		<ProjectGallery />
 	</div>
 </div>

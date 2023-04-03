@@ -15,7 +15,7 @@
 		<figcaption class="font-medium">
 			<div class="flex items-center justify-start">
 				<img class="md:h-auto rounded-full" src={opinion?.picture} alt="" width="100px" />
-				<div class="pl-5">
+				<div class="pl-5 text-left">
 					<div class="text-indigo-500">{opinion.name}</div>
 					<div class=" ">
 						{opinion.position}, {opinion.company}

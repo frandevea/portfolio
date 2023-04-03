@@ -4,9 +4,18 @@
 </script>
 
 <div class="mx-auto max-w-7xl">
+	<div class="p-4 text-left max-w-2xl">
+		<p class="text-4xl mb-1 text-left font-bold pt-10">
+			Things I’ve made trying to put my dent in the universe.
+		</p>
+		<p class="text-small my-5 text-zinc-500">
+			I’ve worked on tons of little projects over the years but these are the ones that I’m most
+			proud of.
+		</p>
+	</div>
 	<ul
 		role="list"
-		class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-3 lg:mx-0 lg:max-w-none lg:grid-cols-4"
+		class="grid max-w-2xl grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"
 	>
 		{#each projects as project}
 			<ProjectCard {project} />
