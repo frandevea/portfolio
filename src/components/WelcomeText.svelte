@@ -1,5 +1,5 @@
 <script>
-	import { fade } from 'svelte/transition';
+	import me from '$lib/images/opinions/me.jpg';
 </script>
 
 <div class="py-16">
@@ -11,6 +11,6 @@
 				<span class="text-indigo-500">software</span> engineering is my calling.
 			</p>
 		</div>
-		<img src={'/static/images/opinions/me.jpg'} alt="" class="rounded-full" />
+		<img src={me} alt="" class="rounded-full" />
 	</div>
 </div>
