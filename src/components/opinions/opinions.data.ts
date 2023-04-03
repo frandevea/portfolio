@@ -3,7 +3,7 @@ import type { Opinion } from '../../lib/types/opinion.interface';
 export const opinions: Opinion[] = [
 	{
 		name: 'Lucas Goyeche',
-		picture: '/src/lib/images/opinions/lucas.jpg',
+		picture: '/static/opinions/lucas.jpg',
 		description:
 			'Capaz de enfrentar cualquier desafío técnico, Fran posee una gran habilidad de diseño acompañada de su abanico de herramientas como desarrollador, combinado con su atención al detalle y comunicación, un placer trabajar con él.',
 		position: 'Tech Lead',
@@ -11,7 +11,7 @@ export const opinions: Opinion[] = [
 	},
 	{
 		name: 'Youssef Lehchiki',
-		picture: '/src/lib/images/opinions/youssef.jpg',
+		picture: '/static/opinions/youssef.jpg',
 		description:
 			'Recomiendo encarecidamente a Fran como desarrollador freelance. Es altamente competente, confiable y dedicado en su trabajo. Su experiencia y habilidades serán de gran valor para cualquier proyecto en el que se involucre.',
 		position: 'Software Engineer',
@@ -19,7 +19,7 @@ export const opinions: Opinion[] = [
 	},
 	{
 		name: 'Manuel Manresa',
-		picture: '/src/lib/images/opinions/manu.jpg',
+		picture: '/static/opinions/manu.jpg',
 		description:
 			'Capaz de enfrentar cualquier desafío técnico, Fran posee una gran habilidad de diseño acompañada de su abanico de herramientas como desarrollador, combinado con su atención al detalle y comunicación, un placer trabajar con él.',
 		position: 'Software Engineer',
@@ -27,7 +27,7 @@ export const opinions: Opinion[] = [
 	},
 	{
 		name: 'Luis Enrique',
-		picture: '/src/lib/images/opinions/unknown.jpg',
+		picture: '/static/opinions/unknown.jpg',
 		description:
 			'Super competente, contacte con varios programadores que estuvieron a prueba y el que mejor resultado me dió con diferencia fue Fran, todo un acierto.',
 		position: 'CEO',

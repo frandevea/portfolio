@@ -11,6 +11,6 @@
 				<span class="text-indigo-500">software</span> engineering is my calling.
 			</p>
 		</div>
-		<img src="/src/lib/images/opinions/me.jpg" alt="" class="rounded-full" />
+		<img src="/static/images/opinions/me.jpg" alt="" class="rounded-full" />
 	</div>
 </div>
