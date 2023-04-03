@@ -10,8 +10,10 @@
 		href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👾</text></svg>"
 	/>
 </svelte:head>
-<div class="max-w-4xl mx-auto px-4 min-h-screen flex flex-col bg-red-500">
-	<main>
-		<slot />
-	</main>
+<div class="bg-zinc-50">
+	<div class="bg-white max-w-6xl mx-auto min-h-screen flex flex-col">
+		<main>
+			<slot />
+		</main>
+	</div>
 </div>
