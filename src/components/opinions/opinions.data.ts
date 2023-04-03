@@ -32,7 +32,7 @@ export const opinions: Opinion[] = [
 		name: 'Youssef Lehchiki',
 		picture: youssef,
 		description:
-			'Competent, trustworthy, and dedicated to his work. His experience and skills will be invaluable to any project he is involved with.',
+			'Trustworthy, and dedicated to his work. His experience and skills will be invaluable to any project he is involved with.',
 		position: 'Software Engineer',
 		company: 'Delcom'
 	}

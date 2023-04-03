@@ -3,7 +3,7 @@
 	import { projects } from './projects.data';
 </script>
 
-<div class="mx-auto max-w-7xl">
+<section class="mx-auto max-w-7xl">
 	<div class="p-4 text-left max-w-2xl">
 		<p class="text-4xl mb-1 text-left font-bold pt-10">
 			Things I’ve made trying to put my dent in the universe.
@@ -23,4 +23,4 @@
 
 		<!-- More people... -->
 	</ul>
-</div>
+</section>
