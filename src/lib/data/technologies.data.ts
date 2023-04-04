@@ -17,7 +17,10 @@ export const technologies = {
 	],
 	others: [
 		{ name: 'Figma', link: 'https://www.figma.com/' },
-		{ name: 'Playwright', link: 'https://playwright.dev/' },
+		{
+			name: 'Playwright',
+			link: 'https://www.slideshare.net/FranPerea6/playwright-begginers-presentation'
+		},
 		{ name: 'Git', link: 'https://git-scm.com/' },
 		{ name: 'Unix', link: 'https://es.wikipedia.org/wiki/Unix' }
 	]
