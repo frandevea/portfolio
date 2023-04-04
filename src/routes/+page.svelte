@@ -6,7 +6,7 @@
 	import TechGallery from '../components/technologies/TechGallery.svelte';
 </script>
 
-<div class="pt-10">
+<div class="pt-10 max-w-7xl mx-auto bg-white">
 	<div class="px-5 md:px-14">
 		<Header />
 	</div>
@@ -15,6 +15,6 @@
 		<ProjectGallery />
 		<TechGallery />
 	</div>
-
-	<OpinionsCarousel />
 </div>
+
+<OpinionsCarousel />

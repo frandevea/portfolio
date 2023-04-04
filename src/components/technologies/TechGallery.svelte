@@ -3,7 +3,7 @@
 	import { technologies } from '$lib/data/technologies.data';
 </script>
 
-<section class="mt-10 mb-20 flex items-center flex-wrap justify-center lg:justify-between sm:px-4">
+<section class="mt-10 pb-20 flex items-center flex-wrap justify-center lg:justify-between sm:px-4">
 	<div class="flex items-center justify-center flex-wrap lg:justify-between">
 		<div class="flex flex-col lg:max-w-lg text-center lg:text-left">
 			<p class="text-4xl mb-1 font-bold">Usually using...</p>

@@ -4,7 +4,7 @@
 	import { opinions } from '$lib/data/opinions.data';
 </script>
 
-<div class="bg-indigo-200 py-4 mt-10">
+<div class="bg-indigo-200 py-4">
 	<Marquee direction="right" speed={10}>
 		{#each opinions as opinion}
 			<OpinionCard {opinion} />
