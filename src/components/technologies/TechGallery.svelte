@@ -18,19 +18,19 @@
 		<p class="text-sm font-semibold text-center lg:text-left my-2">Front-end</p>
 		<div class="flex flex-wrap lg:justify-start justify-center gap-2">
 			{#each technologies.frontEnd as tech}
-				<TechPill name={tech} />
+				<TechPill {tech} />
 			{/each}
 		</div>
 		<p class="text-sm font-semibold text-center lg:text-left my-2">Back-end</p>
 		<div class="flex flex-wrap lg:justify-start justify-center gap-2">
 			{#each technologies.backEnd as tech}
-				<TechPill name={tech} />
+				<TechPill {tech} />
 			{/each}
 		</div>
 		<p class="text-sm font-semibold text-center lg:text-left my-2">Others</p>
 		<div class="flex flex-wrap lg:justify-start justify-center gap-2">
 			{#each technologies.others as tech}
-				<TechPill name={tech} />
+				<TechPill {tech} />
 			{/each}
 		</div>
 	</div>
