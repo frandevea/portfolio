@@ -5,7 +5,7 @@ export const technologies = {
 		{ name: 'Svelte', link: 'https://svelte.dev/' },
 		{ name: 'Redux', link: 'https://redux.js.org/' },
 		{ name: 'TailwindCSS', link: 'https://tailwindcss.com/' },
-		{ name: 'Boostrap', link: 'https://getbootstrap.com/' }
+		{ name: 'Bootstrap', link: 'https://getbootstrap.com/' }
 	],
 	backEnd: [
 		{ name: 'Nest', link: 'https://nestjs.com/' },
