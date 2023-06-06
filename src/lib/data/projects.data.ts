@@ -1,16 +1,18 @@
 import type { Project } from '$lib/types/project.interface';
 import koru from '$lib/images/projects/koru.png';
-import viajes from '$lib/images/projects/viajesmundomania.png';
+import viajes from '$lib/images/projects/viajes.png';
 import portfolio from '$lib/images/projects/portfolio.png';
 import ilitia from '$lib/images/projects/ilitia.png';
 import vinci from '$lib/images/projects/vinci.png';
+import delcom from '$lib/images/projects/delcom.png';
+
 export const projects: Project[] = [
 	{
 		name: 'This Website',
 		image: portfolio,
 		description:
 			'A small SvelteKit application using TailwindCSS for the styling to show my skills and projects to the rest of the world',
-		link: 'https://twitter.com/home',
+		link: '#',
 		linkName: 'you are here lol'
 	},
 	{
@@ -36,6 +38,14 @@ export const projects: Project[] = [
 			'SaaS to manage fertility centers. Rebranded the whole project and restructured the majority of the components changing styles and functionality',
 		link: 'https://ilitiasolution.com/en/',
 		linkName: 'ilitiasolution.com'
+	},
+	{
+		name: 'Delcom Wave',
+		image: delcom,
+		description:
+			"SaaS to manage sportcenter's bookings and products. Worked in many of its main features, implemented E2E testing and refactored core components ",
+		link: '	https://www.delcom.nl/',
+		linkName: 'delcom.nl'
 	},
 
 	{
