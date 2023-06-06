@@ -5,6 +5,13 @@ import manuel from '$lib/images/opinions/manu.jpg';
 import unknown from '$lib/images/opinions/unknown.jpg';
 export const opinions: Opinion[] = [
 	{
+		name: 'Miguel',
+		picture: unknown,
+		description: 'Totally recommended, works very good, fast and engaged with the project',
+		position: 'CTO',
+		company: 'Ilitia Solutions'
+	},
+	{
 		name: 'Lucas Goyeche',
 		picture: lucas,
 		description:
