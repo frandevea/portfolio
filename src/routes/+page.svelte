@@ -10,7 +10,6 @@
 	<div class="px-5 md:px-14">
 		<Header />
 	</div>
-	test
 	<div class="px-5 md:px-14">
 		<ProjectGallery />
 		<TechGallery />
