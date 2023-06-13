@@ -10,7 +10,7 @@
 		<div class="">
 			<p class="text-4xl mb-1 font-bold max-w-3xl">Hi! I am Fran Perea.</p>
 			<p class="text-2xl mb-4 font-bold max-w-xl">
-				Transformig <span class="text-indigo-500">ideas</span> into reality through
+				Transforming <span class="text-indigo-500">ideas</span> into reality through
 				<span class="text-indigo-500">software</span> engineering is my calling.
 			</p>
 			<Socials />
