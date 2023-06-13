@@ -3,13 +3,16 @@ import lucas from '$lib/images/opinions/lucas.jpg';
 import youssef from '$lib/images/opinions/youssef.jpg';
 import manuel from '$lib/images/opinions/manu.jpg';
 import unknown from '$lib/images/opinions/unknown.jpg';
+import alberto from '$lib/images/opinions/alberto.jpeg';
+import nichlaes from '$lib/images/opinions/nichlaes.png';
 export const opinions: Opinion[] = [
 	{
-		name: 'Miguel',
-		picture: unknown,
-		description: 'Totally recommended, works very good, fast and engaged with the project',
-		position: 'CTO',
-		company: 'Ilitia Solutions'
+		name: 'Alberto Molinero Zaera',
+		picture: alberto,
+		description:
+			"His expertise in frontend development and design resulted in an intuitive and visually appealing dashboard that aligns with VINCI's brand. Francisco's attention to detail, effective communication, and commitment to meeting deadlines made a significant impact on the project. Highly recommended!",
+		position: 'Product Strategy Manager',
+		company: 'VINCI'
 	},
 	{
 		name: 'Lucas Goyeche',
@@ -28,6 +31,14 @@ export const opinions: Opinion[] = [
 		company: 'Delcom'
 	},
 	{
+		name: 'Youssef Lehchiki',
+		picture: youssef,
+		description:
+			'Trustworthy, and dedicated to his work. His experience and skills will be invaluable to any project he is involved with.',
+		position: 'Software Engineer',
+		company: 'Delcom'
+	},
+	{
 		name: 'Luis Enrique',
 		picture: unknown,
 		description:
@@ -36,11 +47,18 @@ export const opinions: Opinion[] = [
 		company: 'Viajes Mundomanía'
 	},
 	{
-		name: 'Youssef Lehchiki',
-		picture: youssef,
+		name: 'Miguel',
+		picture: unknown,
+		description: 'Totally recommended, works very good, fast and engaged with the project',
+		position: 'CTO',
+		company: 'Ilitia Solutions'
+	},
+	{
+		name: 'Nichlaes',
+		picture: nichlaes,
 		description:
-			'Trustworthy, and dedicated to his work. His experience and skills will be invaluable to any project he is involved with.',
-		position: 'Software Engineer',
-		company: 'Delcom'
+			"Francisco, the frontend developer I hired for VINCI's project, has been exceptional. I highly recommend Francisco as a talented frontend developer and look forward to future collaborations.",
+		position: 'Co-Founder',
+		company: 'VINCI'
 	}
 ];

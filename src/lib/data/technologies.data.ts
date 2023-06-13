@@ -2,8 +2,11 @@ export const technologies = {
 	frontEnd: [
 		{ name: 'Angular', link: 'https://angular.io/' },
 		{ name: 'React', link: 'https://es.reactjs.org/' },
+		{ name: 'Next.js', link: 'https://nextjs.org/' },
 		{ name: 'Svelte', link: 'https://svelte.dev/' },
+		{ name: 'NgRx', link: 'https://ngrx.io/' },
 		{ name: 'Redux', link: 'https://redux.js.org/' },
+		{ name: 'Recoil.js', link: 'https://recoiljs.org/' },
 		{ name: 'TailwindCSS', link: 'https://tailwindcss.com/' },
 		{ name: 'Bootstrap', link: 'https://getbootstrap.com/' }
 	],
@@ -17,6 +20,7 @@ export const technologies = {
 	],
 	others: [
 		{ name: 'Figma', link: 'https://www.figma.com/' },
+		{ name: 'Wagmi', link: 'https://wagmi.sh' },
 		{
 			name: 'Playwright',
 			link: 'https://www.slideshare.net/FranPerea6/playwright-begginers-presentation'

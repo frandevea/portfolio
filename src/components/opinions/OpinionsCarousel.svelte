@@ -16,7 +16,7 @@
 		focus: 'center',
 		perPage: 3,
 		autoScroll: {
-			speed: 0.2
+			speed: 0.4
 		},
 		rewind: false,
 		gap: '1rem',
