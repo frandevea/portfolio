@@ -16,9 +16,7 @@
 		<p class="text-sm leading-7 text-zinc-500 text-justify">
 			{project.description}
 		</p>
-		<p
-			class="mt-4 flex text-sm font-medium text-zinc-500 transition group-hover:text-indigo-500 dark:text-zinc-200"
-		>
+		<p class="mt-4 flex text-sm font-medium text-zinc-300 transition group-hover:text-indigo-500">
 			<LinkIcon props="h-6 w-6 flex-none " />
 			<span class="ml-2">{project.linkName}</span>
 		</p>

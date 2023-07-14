@@ -5,15 +5,16 @@ import portfolio from '$lib/images/projects/portfolio.png';
 import ilitia from '$lib/images/projects/ilitia.png';
 import vinci from '$lib/images/projects/vinci.png';
 import delcom from '$lib/images/projects/delcom.png';
+import adntro from '$lib/images/projects/adntro.png';
 
 export const projects: Project[] = [
 	{
-		name: 'This Website',
-		image: portfolio,
+		name: 'ADNTRO Genetics',
+		image: adntro,
 		description:
-			'A small SvelteKit application using TailwindCSS for the styling to show my skills and projects to the rest of the world',
-		link: '#',
-		linkName: 'you are here lol'
+			'A company that offers DNA testing kits that allow you to learn more about your ancestry, genetic predispositions, and other health-related factors',
+		link: 'https://demo.adntro.com/dashboard',
+		linkName: 'adntro.com'
 	},
 	{
 		name: 'Koru Network',
@@ -27,7 +28,7 @@ export const projects: Project[] = [
 		name: 'VINCI Staking Dashboard',
 		image: vinci,
 		description:
-			'Blockchain NFT Platform. Created a front-end app for their staking dashboard using Web3 authentication and conecting to their smart contracts to stake tokens',
+			'Blockchain NFT Platform. Created a front-end app for their staking dashboard using Web3 conecting to their smart contracts to stake tokens',
 		link: 'https://byvinci.io',
 		linkName: 'byvinci.io'
 	},
@@ -40,10 +41,18 @@ export const projects: Project[] = [
 		linkName: 'ilitiasolution.com'
 	},
 	{
+		name: 'This Website',
+		image: portfolio,
+		description:
+			'A small SvelteKit application using TailwindCSS for the styling to show my skills and projects to the rest of the world',
+		link: '#',
+		linkName: 'you are here lol'
+	},
+	{
 		name: 'Delcom Wave',
 		image: delcom,
 		description:
-			"SaaS to manage sportcenter's bookings and products. Worked in many of its main features, implemented E2E testing and refactored core components ",
+			"SaaS to manage sportcenter's bookings and products. Worked in many of its main features and implemented E2E testing in all the applications",
 		link: '	https://www.delcom.nl/',
 		linkName: 'delcom.nl'
 	},
