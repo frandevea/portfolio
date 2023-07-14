@@ -16,7 +16,7 @@
 
 	<div>
 		<p class="text-sm font-semibold text-center lg:text-left my-2">Front-end</p>
-		<div class="flex flex-wrap lg:justify-start justify-center gap-2">
+		<div class="flex flex-wrap lg:justify-start justify-center gap-2 max-w-lg">
 			{#each technologies.frontEnd as tech}
 				<TechPill {tech} />
 			{/each}

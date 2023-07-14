@@ -7,7 +7,7 @@
 <div class="bg-indigo-50 rounded-xl p-8 md:p-0 m-3">
 	<figure class=" md:p-8 text-center md:text-left space-y-4">
 		<blockquote>
-			<p class="text-md max-w-sm font-medium text-justify">
+			<p class="text-sm max-w-sm font-medium text-justify">
 				“{opinion.description}”
 			</p>
 		</blockquote>
