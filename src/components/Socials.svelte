@@ -8,10 +8,10 @@
 	<a href="https://www.linkedin.com/in/franperea/" target="_blank">
 		<LinkedInIcon props="w-8 " />
 	</a>
-	<a href="https://www.twitter.com/franpereadev/" target="_blank">
+	<a href="https://www.twitter.com/frandevea/" target="_blank">
 		<TwitterIcon props="w-8" />
 	</a>
-	<a href="https://www.github.com/franpereadev/" target="_blank">
+	<a href="https://www.github.com/frandevea/" target="_blank">
 		<GithubIcon props="w-8" />
 	</a>
 </div>
