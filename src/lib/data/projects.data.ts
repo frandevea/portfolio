@@ -24,7 +24,7 @@ export const projects: Project[] = [
 		name: 'Repsol Data Trading',
 		image: repsol,
 		description:
-			"Repsol's data trading software equips the company with the insights necessary to make informed decisions, optimize profits, and reduce risk in the oil and gas market.",
+			"Repsol's data trading software equips the company with the insights necessary to make informed decisions, and reduce risk in the oil and gas market.",
 		link: 'https://www.repsol.com/es/index.cshtml',
 		linkName: 'repsol.com'
 	},
