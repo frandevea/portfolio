@@ -8,8 +8,8 @@
 		<div class="flex flex-col lg:max-w-xl text-center lg:text-left">
 			<p class="text-4xl mb-1 font-bold">Things I’ve made trying to put my dent in the universe.</p>
 			<p class="text-small my-5 text-zinc-500">
-				I’ve worked on tons of little projects over the years but these are the ones that I’m most
-				proud of.
+				I’ve worked on tons of projects over the years but these are the ones that I’m most proud
+				of.
 			</p>
 		</div>
 	</div>
