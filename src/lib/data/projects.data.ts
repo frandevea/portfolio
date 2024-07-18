@@ -6,8 +6,29 @@ import ilitia from '$lib/images/projects/ilitia.png';
 import vinci from '$lib/images/projects/vinci.png';
 import delcom from '$lib/images/projects/delcom.png';
 import adntro from '$lib/images/projects/adntro.png';
+import arbomap from '$lib/images/projects/arbomap.png';
+import repsol from '$lib/images/projects/repsol.png';
+import merak from '$lib/images/projects/merak.png';
 
 export const projects: Project[] = [
+	{
+		name: 'Arbomap from Tecnigral',
+		image: arbomap,
+		description:
+			'Leading GIS software for the efficient management of green spaces, trees, playgrounds, and street furniture.',
+		link: 'https://www.tecnigral.es/arbomap/',
+		linkName: 'tecnigral.es'
+	},
+
+	{
+		name: 'Repsol Data Trading',
+		image: repsol,
+		description:
+			"Repsol's data trading software equips the company with the insights necessary to make informed decisions, optimize profits, and reduce risk in the oil and gas market.",
+		link: 'https://www.repsol.com/es/index.cshtml',
+		linkName: 'repsol.com'
+	},
+
 	{
 		name: 'ADNTRO Genetics',
 		image: adntro,
@@ -16,14 +37,16 @@ export const projects: Project[] = [
 		link: 'https://demo.adntro.com/dashboard',
 		linkName: 'adntro.com'
 	},
+
 	{
-		name: 'Koru Network',
-		image: koru,
+		name: 'Knorr Bremse’s Conference Website',
+		image: merak,
 		description:
-			'I founded and stablished a minecraft server with more than 100.000 unique players and a team of 40+ staff members around the globe',
-		link: 'https://www.linkedin.com/company/korunetwork/',
-		linkName: 'linkedin.com'
+			'Knorr-Bremse’s innovative web application showcases the advanced ventilation systems in the world’s most renowned metro systems.',
+		link: 'https://www.knorr-bremse.es/es/',
+		linkName: 'knorr-bremse.es'
 	},
+
 	{
 		name: 'VINCI Staking Dashboard',
 		image: vinci,
@@ -31,6 +54,15 @@ export const projects: Project[] = [
 			'Blockchain NFT Platform. Created a front-end app for their staking dashboard using Web3 conecting to their smart contracts to stake tokens',
 		link: 'https://byvinci.io',
 		linkName: 'byvinci.io'
+	},
+
+	{
+		name: 'Koru Network',
+		image: koru,
+		description:
+			'I founded and stablished a minecraft server with more than 100.000 unique players and a team of 40+ staff members around the globe',
+		link: 'https://www.linkedin.com/company/korunetwork/',
+		linkName: 'linkedin.com'
 	},
 	{
 		name: 'Illitia Software',
